@@ -2,7 +2,7 @@
 title: "Uncertainty-Aware CNNs for Depth Completion: Uncertainty from Beginning to End"
 authors:
 - Abdelrahman Eldesokey
-date: "2020-06-03T00:00:00Z"
+date: "2020-06-08T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -21,28 +21,23 @@ publication_short: In *CVPR2020*
 abstract: We propose a novel approach to identify disturbed measurements in the input by learning an input confidence estimator in a self-supervised manner based on the normalized convolutional neural networks (NCNNs). Further, we propose a probabilistic version of NCNNs that produces a statistically meaningful uncertainty measure for the final prediction. When we evaluate our approach on the KITTI dataset for depth completion, we outperform all the existing Bayesian Deep Learning approaches in terms of prediction accuracy, quality of the uncertainty measure, and the computational efficiency. Moreover, our small network with 670k parameters performs on-par with conventional approaches with millions of parameters. These results give strong evidence that separating the network into parallel uncertainty and prediction streams leads to state-of-the-art performance with accurate uncertainty estimates. 
 
 # Summary. An optional shortened abstract.
-summary: Hi
+summary: This paper proposes a sparse depth completion approach that is uncertainty-aware. We propose a novel paradigm of learning the uncertainty of the input and propagate it through the network until the final output. Our approach can be used with other sparse problems such as sparse optical flow and time-of-flight rectification.
 
 tags:
 - Source Themes
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-url_code: '#'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+url_Preprint: https://arxiv.org/abs/2006.03349
+url_Code: 'https://github.com/abdo-eldesokey/pncnn'
+url_Video: 'https://youtu.be/Iw_yk-UoKEo'
+url_Slides: ''
+url_Cite: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -60,6 +55,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: 
 ---
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
