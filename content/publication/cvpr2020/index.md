@@ -28,7 +28,9 @@ tags:
 featured: true
 
 links:
-url_Preprint: https://arxiv.org/abs/2006.03349
+- name: Add to Calendar
+  url: files/CVPR202_Poster_Session3.2.ics
+url_Preprint: 'https://arxiv.org/abs/2006.03349'
 url_Code: 'https://github.com/abdo-eldesokey/pncnn'
 url_Video: 'https://youtu.be/Iw_yk-UoKEo'
 url_Slides: ''
